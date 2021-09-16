@@ -1,0 +1,35 @@
+.row {
+    border: 1px solid #ccc;
+    height: 200px;
+    border-color: coral; 
+    padding-top: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+.content h3 {
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+.home,
+.product,
+.account {
+    height: 100%;
+    margin-right: 10px;
+}
+
+.home {
+    font-size: 40px;
+    color: #4c956c;
+}
+.product {
+    font-size: 42px;
+    color: #f8961e;
+}
+.account {
+    font-size: 44px;
+    color: #d90429;
+}
